@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<unistd.h>
+#include<termios.h>
 
 struct entry {
 	char input;
@@ -78,4 +80,3 @@ void load_array(const char *file_name, char array[HEIGHT][WIDTH]) {
 	}
 	rewind(f);
 }
-

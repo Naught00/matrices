@@ -60,7 +60,7 @@ int main(void) {
 				move(10);
 			}
 
-			usleep(10 * 1000);
+			usleep(100 * 1000);
 			system("clear");
 			display(test);
 		}
